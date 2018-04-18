@@ -2,7 +2,7 @@ public class control_break {
     public static void main(String[] args) {
         // 直接结束当前for循环
         // 打印单数，注意continue和break区别
-//        for (int i = 0; i < 10; i++) {
+//        for (int i = 1; i < 10; i++) {
 //            if (0 == i%2)
 //                break;  // break后直接跳出for循环了，不再打印单数
 //            System.out.println(i);
