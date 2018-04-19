@@ -32,21 +32,17 @@ public class array_1_create {
         int[] a = new int[5];
         for (int i = 0; i < 5; i++) {
             a[i] = (int) (Math.random() * 100);
-        }
-
-        System.out.println("数组中各个随机数是：");
-        for (int i = 0; i < a.length; i++) {
             System.out.println(a[i]);
         }
 
-        int min = 100;
+        int min = a[0];
         System.out.println("数组中最小值是：");
         for (int i = 0; i < a.length; i++) {
-            if (a[i]<a[i+1]) {
+            if (a[i]<min) {
                 min = a[i];
             }
-            System.out.println(min);
-        }
 
+        }
+        System.out.println(min);
     }
 }

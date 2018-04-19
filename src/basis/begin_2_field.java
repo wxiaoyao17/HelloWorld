@@ -21,7 +21,7 @@ public class begin_2_field {
             int j = 6; // 作用域为子块内
             System.out.println(j);
         }
-        System.out.println(j);  // 不能访问j
+        System.out.println(j);  // 子块外不能访问子块内的j
     }
     public static void main(String[] args){
         System.out.println("Hello World!");
