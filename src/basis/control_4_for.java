@@ -1,3 +1,5 @@
+package basis;
+
 public class control_4_for {
     public static void main(String[] args){
         // 打印0~4

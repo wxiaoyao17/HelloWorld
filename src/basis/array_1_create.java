@@ -1,3 +1,5 @@
+package basis;
+
 public class array_1_create {
     public static void main(String[] args) {
 //        // 声明一个数组，但是并不会创建数组

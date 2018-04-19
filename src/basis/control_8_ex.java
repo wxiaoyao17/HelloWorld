@@ -1,3 +1,5 @@
+package basis;
+
 public class control_8_ex {
     public static void main(String[] args) {
         // ex1: 黄金分割

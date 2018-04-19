@@ -1,3 +1,5 @@
+package basis;
+
 import java.util.Scanner;
 
 public class operator_2_relation {

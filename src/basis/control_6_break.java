@@ -1,3 +1,5 @@
+package basis;
+
 public class control_6_break {
     public static void main(String[] args) {
         // 直接结束当前for循环

@@ -1,3 +1,5 @@
+package basis;
+
 public class control_7_breakout {
     public static void main(String[] args) {
         // break只能结束当前循环，借助boolean结束外部循环

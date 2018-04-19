@@ -1,3 +1,5 @@
+package basis;
+
 public class begin_2_field {
     static int i = 1;  // 字段、属性、成员变量、Field，作用域为整个类
     int j = i;  // 其他的成员变量也可以访问i
