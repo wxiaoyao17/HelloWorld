@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class operator {
     public static void main(String[] args){
+         /** 使用Scanner从键盘输入，类似scanf */
 //        Scanner s = new Scanner(System.in);
 //        int a = s.nextInt();
 //        System.out.println("first:"+a);
@@ -15,6 +16,7 @@ public class operator {
 //        String d = s.nextLine();
 //        System.out.println("fourth:"+d);
 
+        /** 如果有任何运算单元的长度超过int,那么运算结果就按照最长的长度计算 */
 //        int a = 5;
 //        long b = 6;
 //        int c = (int) (a+b);    // a+b为long
@@ -29,10 +31,13 @@ public class operator {
 //        System.out.println(b);
 //        System.out.println(++b);
 
+        // ex: 自增
 //        int i = 1;
 //        int j = ++i + i++ + ++i + ++i + i++; // ++前置
 //        System.out.println(j);  // 2 + 2 + 4 + 5 + 5
 //        System.out.println(i);  // 2 2(+1) 4   5   5(+1)
+
+        // ex: BMI
         Scanner s = new Scanner(System.in);
         float hight = s.nextFloat();
         System.out.println("hight:"+hight);
