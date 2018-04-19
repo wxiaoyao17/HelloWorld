@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class operator2 {
+public class operator_3_bit {
     public static void main(String[] args){
 //        int i = 5;
 //        String b = Integer.toBinaryString(i);

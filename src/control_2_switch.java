@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class control_switch {
+public class control_2_switch {
     public static void main(String[] args){
         int day = 7;
         Scanner s = new Scanner(System.in);

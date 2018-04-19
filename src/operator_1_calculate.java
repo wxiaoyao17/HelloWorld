@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class operator {
+public class operator_1_calculate {
     public static void main(String[] args){
          /** 使用Scanner从键盘输入，类似scanf */
 //        Scanner s = new Scanner(System.in);

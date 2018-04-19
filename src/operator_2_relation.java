@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class operator1 {
+public class operator_2_relation {
     public static void main(String[] args){
 //        int a = 5;
 //        int b = 6;

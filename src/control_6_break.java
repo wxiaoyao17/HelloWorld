@@ -1,4 +1,4 @@
-public class control_break {
+public class control_6_break {
     public static void main(String[] args) {
         // 直接结束当前for循环
         // 打印单数，注意continue和break区别

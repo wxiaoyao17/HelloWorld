@@ -1,4 +1,4 @@
-public class HelloWorld_1 {
+public class begin_2_field {
     static int i = 1;  // 字段、属性、成员变量、Field，作用域为整个类
     int j = i;  // 其他的成员变量也可以访问i
 
@@ -23,9 +23,9 @@ public class HelloWorld_1 {
     }
     public static void main(String[] args){
         System.out.println("Hello World!");
-        new HelloWorld_1().method3(1); // ? 一定要是静态才可以访问吗
+        new begin_2_field().method3(1); // ? 一定要是静态才可以访问吗
         // 实例化方法
-        HelloWorld_1 h = new HelloWorld_1();
+        begin_2_field h = new begin_2_field();
         h.method3(4);
     }
 }

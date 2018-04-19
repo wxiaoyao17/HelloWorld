@@ -1,4 +1,4 @@
-public class control_ex {
+public class control_8_ex {
     public static void main(String[] args) {
         // ex1: 黄金分割
         //寻找某两个数相除，其结果 离黄金分割点 0.618最近

@@ -1,4 +1,4 @@
-public class control_for {
+public class control_4_for {
     public static void main(String[] args){
         // 打印0~4
 //        for (int i = 0; i < 5; i++) {

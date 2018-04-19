@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class control_while {
+public class control_3_while {
     public static void main(String[] args){
         // 打印0~4
 //        int i = 0;
