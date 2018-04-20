@@ -26,14 +26,14 @@ public class array_2_init {
         // 使用for循环或者while循环，对这个数组实现反转效果
         int[] array = new int[5];
         for (int i = 0; i < 5; i++) {
-            array[i] = (int)(Math.random() * 100);
+            array[i] = (int) (Math.random() * 100);
             System.out.println(array[i]);
         }
 
         System.out.println("reverse the array!");
         int[] array_verse = new int[5];
         for (int i = 0; i < 5; i++) {
-            array_verse[i] = array[4-i];
+            array_verse[i] = array[4 - i];
             System.out.println(array_verse[i]);
         }
 

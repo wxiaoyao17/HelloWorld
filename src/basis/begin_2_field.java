@@ -4,16 +4,19 @@ public class begin_2_field {
     static int i = 1;  // 字段、属性、成员变量、Field，作用域为整个类
     int j = i;  // 其他的成员变量也可以访问i
 
-    public void method1(){
+    public void method1() {
         System.out.println(i);  //方法里也可以访问i
     }
-    public void method2(){
+
+    public void method2() {
         System.out.println(j);
     }
-    public void method3(int k){
+
+    public void method3(int k) {
         System.out.println(k);
     }
-    public void method4(){
+
+    public void method4() {
         int i = 5;  // 局部变量
         System.out.println(i);
         {   // 子块
@@ -23,7 +26,8 @@ public class begin_2_field {
         }
         System.out.println(j);  // 子块外不能访问子块内的j
     }
-    public static void main(String[] args){
+
+    public static void main(String[] args) {
         System.out.println("Hello World!");
         new begin_2_field().method3(1); // ? 一定要是静态才可以访问吗
         // 实例化方法

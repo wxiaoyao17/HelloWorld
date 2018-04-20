@@ -3,7 +3,7 @@ package basis;
 import java.util.Scanner;
 
 public class operator_2_relation {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 //        int a = 5;
 //        int b = 6;
 //        int c = 5;
@@ -57,7 +57,7 @@ public class operator_2_relation {
 //        System.out.println(!a^b);
 
         int i = 1;
-        boolean b = !(i++ == 3) ^ (i++ ==2) && (i++ ==3);
+        boolean b = !(i++ == 3) ^ (i++ == 2) && (i++ == 3);
         //             !false   ^    true     &&左边为false，后面不执行
         System.out.println(b);
         System.out.println(i);

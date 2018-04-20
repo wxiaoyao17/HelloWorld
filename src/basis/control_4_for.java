@@ -1,7 +1,7 @@
 package basis;
 
 public class control_4_for {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         // 打印0~4
 //        for (int i = 0; i < 5; i++) {
 //            System.out.println(i);
@@ -17,7 +17,7 @@ public class control_4_for {
         //问题： 洪乞丐干10天，收入是多少？
         int sum = 0;
         for (int i = 1; i <= 10; i++) {
-            sum += 1<<(i-1);
+            sum += 1 << (i - 1);
         }
         System.out.println(sum);
     }

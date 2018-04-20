@@ -3,8 +3,8 @@ package basis;
 import java.util.Scanner;
 
 public class operator_1_calculate {
-    public static void main(String[] args){
-         /** 使用Scanner从键盘输入，类似scanf */
+    public static void main(String[] args) {
+        /** 使用Scanner从键盘输入，类似scanf */
 //        Scanner s = new Scanner(System.in);
 //        int a = s.nextInt();
 //        System.out.println("first:"+a);
@@ -42,23 +42,23 @@ public class operator_1_calculate {
         // ex: BMI
         Scanner s = new Scanner(System.in);
         float hight = s.nextFloat();
-        System.out.println("hight:"+hight);
+        System.out.println("hight:" + hight);
         float weight = s.nextFloat();
-        System.out.println("weight:"+weight);
-        float bmi = weight/(hight*hight);
-        System.out.println("bmi:"+bmi);
+        System.out.println("weight:" + weight);
+        float bmi = weight / (hight * hight);
+        System.out.println("bmi:" + bmi);
 
-        if (bmi<18.5)
+        if (bmi < 18.5)
             System.out.println("体重过轻");
-        else if ((bmi>=18.5) && (bmi<24))
+        else if ((bmi >= 18.5) && (bmi < 24))
             System.out.println("正常范围");
-        else if ((bmi>=24) && (bmi<27))
+        else if ((bmi >= 24) && (bmi < 27))
             System.out.println("体重过重");
-        else if ((bmi>=27) && (bmi<30))
+        else if ((bmi >= 27) && (bmi < 30))
             System.out.println("轻度肥胖");
-        else if ((bmi>=30) && (bmi<35))
+        else if ((bmi >= 30) && (bmi < 35))
             System.out.println("中度肥胖");
-        else if (bmi>=35)
+        else if (bmi >= 35)
             System.out.println("重度肥胖");
         else
             System.out.println("error");

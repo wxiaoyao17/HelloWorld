@@ -50,7 +50,7 @@ public class control_6_break {
 
         for (int year = 1; year < 100; year++) {
             p += 12000;
-            f = 1.2*p;
+            f = 1.2 * p;
             p = f;
             if (f > 1000000) {
                 System.out.println(year);

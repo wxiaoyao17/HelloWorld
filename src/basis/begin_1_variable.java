@@ -1,7 +1,7 @@
 package basis;
 
 public class begin_1_variable {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         System.out.println("Hello World!");
 
 //        long val = 26L;

@@ -3,7 +3,7 @@ package basis;
 import java.util.Scanner;
 
 public class operator_3_bit {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 //        int i = 5;
 //        String b = Integer.toBinaryString(i);
 //        System.out.println(b); // 0b101
@@ -67,7 +67,7 @@ public class operator_3_bit {
         Scanner s = new Scanner(System.in);
 
         int i = s.nextInt();
-        String a = (i>5) ? "周末" : "工作日";
+        String a = (i > 5) ? "周末" : "工作日";
         System.out.println(a);
     }
 }

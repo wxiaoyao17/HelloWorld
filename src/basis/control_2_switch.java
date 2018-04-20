@@ -3,7 +3,7 @@ package basis;
 import java.util.Scanner;
 
 public class control_2_switch {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         int day = 7;
         Scanner s = new Scanner(System.in);
 
@@ -28,7 +28,7 @@ public class control_2_switch {
             System.out.println("error!");
 
         // use switch case
-        switch (day){
+        switch (day) {
             case 1:
                 System.out.println("星期一");
                 break;
@@ -50,13 +50,13 @@ public class control_2_switch {
             case 7:
                 System.out.println("星期天");
                 break;
-                default:
+            default:
                 System.out.println("error!");
                 break;
         }
 
         // ex1: judge seasons
-        switch (month){
+        switch (month) {
             case 1:
             case 2:
             case 3:
@@ -77,9 +77,9 @@ public class control_2_switch {
             case 12:
                 System.out.println("Winter");
                 break;
-                default:
-                    System.out.println("Error!");
-                    break;
+            default:
+                System.out.println("Error!");
+                break;
         }
 
         //

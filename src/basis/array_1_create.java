@@ -38,7 +38,7 @@ public class array_1_create {
         int min = a[0];
         System.out.println("数组中最小值是：");
         for (int i = 0; i < a.length; i++) {
-            if (a[i]<min) {
+            if (a[i] < min) {
                 min = a[i];
             }
 

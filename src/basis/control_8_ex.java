@@ -65,7 +65,7 @@ public class control_8_ex {
             for (int b = 0; b < 15; b++) {
                 for (int c = 0; c < 15; c++) {
                     for (int d = 0; d < 15; d++) {
-                        if (((a+b)==8) && ((a+c)==14) &&((b+d)==10) && ((c-d)==6)) {
+                        if (((a + b) == 8) && ((a + c) == 14) && ((b + d) == 10) && ((c - d) == 6)) {
                             System.out.println(a);
                             System.out.println(b);
                             System.out.println(c);
